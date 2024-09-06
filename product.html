@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Product</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      
+      var currentPage = window.location.pathname.split('/').pop();
+      $('nav ul li a[href="' + currentPage + '"]').addClass('active');
+    });
+  </script>
+</head>
+
+<body>
+  <header id="header_wrapper">
+    <div class="container">
+      <div class="header_box">
+        <div class="logo"><a href="#"><img src="logo.jpg" alt="logo"></a></div>
+        <nav class="navbar navbar-inverse" role="navigation">
+          <div id="main-nav" class="collapse navbar-collapse navStyle">
+            <ul class="nav navbar-nav" id="mainNav">
+              <li><a href="index.html" class="scroll-link">Home</a></li>
+              <li><a href="support.html" class="scroll-link">Support</a></li>
+              <li><a href="product.html" class="scroll-link">Product</a></li>
+              <li><a href="about.html" class="scroll-link">About Us</a></li>
+              <li><a href="blog.html" class="scroll-link">Blog</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <h1>Product</h1>
+
+  <div class="product-category">
+    <h2>Phone</h2>
+    <div class="products">
+      <div class="product">
+        <img src="phone1.jpg"alt="Phone 1">
+        <p>Pura 70pro ---$6499</p>
+        <p>Light weave pattern, overlapping, changing light and shadow, play the urban movement. The new wind vane design breaks the routine, breaks through the routine, and leads the new aesthetic direction</p>
+      </div>
+      <div class="product">
+        <img src="phone2.jpg" alt="Phone 2">
+        <p>Mate 60 ---$4999</p>
+        <p>The color inspiration comes from the earth color card, and the colorful rivers and mountains are reproduced between the fingers and palms. Brocade fiber material, three-dimensional texture, more hierarchical sense; Texture plain skin, warm ⁠ moist at your fingertips</p>
+      </div>
+      <div class="product">
+        <img src="phone3.jpg"alt="Phone 3">
+        <p>Navo 12 pro ---$3999</p>
+        <p>The 6.76-inch ⁠3 dynamic color screen, with the Display Turbo dynamic display enhancement technology of ⁠, enables you to enjoy the bright, transparent and lifelike senses ⁠ dinner ⁠.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="product-category">
+    <h2>Pad</h2>
+    <div class="products">
+      <div class="product">
+        <img src="pad1.jpg" alt="Pad 1">
+        <p>MatePad Air ---$4999</p>
+        <p>Light and beautiful design, easy to handle. A new AI experience that fully supports your whimsy</p>
+      </div>
+      <div class="product">
+        <img src="pad2.jpg" alt="Pad 2">
+        <p>MatePad ---$3999</p>
+        <p>With multi-layer nano-magnetic-controlled optical coating technology, eye protection can reduce the screen reflectivity by 60% at the same time, pixel level accurate matching, clearer display, and improve the viewing comfort ⁠</p>
+      </div>
+      <div class="product">
+        <img src="pad3.jpg" alt="Pad 3">
+        <p>MatePad SE ---$2999</p>
+        <p>All metal integrated body into exquisite rounded corners, simple and pure; The straight edge contour matches the star ring camera for a neat atmosphere. After a number of rigorous tests, achieve reliable products ⁠ quality ⁠.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="product-category">
+    <h2>Laptop</h2>
+    <div class="products">
+      <div class="product">
+        <img src="laptop1.jpg" alt="Laptop 1">
+        <p>MateBook 16 ---$6699</p>
+        <p>13 generation Intel Core i9 processor 2.5K high color precision touch screen. 16 inch open glass screen, for professional creation.</p>
+      </div>
+      <div class="product">
+        <img src="laptop2.jpg" alt="Laptop 2">
+        <p>MateBook 14 ---$6499</p>
+        <p>2.5K high brush touch screen 13 generation Intel Cool i9 processor. Hyperterminal brings smart office mode.</p>
+      </div>
+      <div class="product">
+        <img src="laptop3.jpg" alt="Laptop 3">
+        <p>MateBook D 16 ---$4599 </p>
+        <p>16-inch eye protection full screen, core standard pressure processor. 16:10 golden ratio, 90% high screen ratio, beyond the small size of the immersion experience</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="product-category">
+    <h2>Watch</h2>
+    <div class="products">
+      <div class="product">
+        <img src="watch1.jpg" alt="watch 1">
+        <p>Watch GT3 ---$2488</p>
+        <p>Continue the relentless pursuit of exquisite craftsmanship and artistic aesthetics</p>
+      </div>
+      <div class="product">
+        <img src="watch2.jpg" alt="watch 2">
+        <p>Watch4 ---$3399</p>
+        <p>Smart health experts, one-click micro physical examination, hyperglycemia risk assessment</p>
+      </div>
+      <div class="product">
+        <img src="watch3.jpg" alt="watch 3">
+        <p>Watch Ultimate ---$4599 </p>
+        <p>Cutting-edge technology, excellent technology, using ultra-strong amorphous zirconium alloy 3 to create a smart watch</p>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div>
+      <p>Connect with us:</p>
+      <ul class="social-links">
+        <li><a href="#"><img src="facebook.jpg" alt="Facebook"style="width: 32px; height: 32px;"></a></li>
+        <li><a href="#"><img src="twitter.jpg" alt="Twitter"style="width: 32px; height: 32px;"></a></li>
+        <li><a href="#"><img src="instagram.jpg" alt="Instagram"style="width: 32px; height: 32px;"></a></li>
+      </ul>
+
+      <p>Leo Copyright © 2024</p>
+    </div>
+    
+  </footer>
+</body>
+
+</html>

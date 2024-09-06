@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>About Us</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      
+      var currentPage = window.location.pathname.split('/').pop();
+      $('nav ul li a[href="' + currentPage + '"]').addClass('active');
+    });
+  </script>
+</head>
+
+<body>
+  <header id="header_wrapper">
+    <div class="container">
+      <div class="header_box">
+        <div class="logo"><a href="#"><img src="logo.jpg" alt="logo"></a></div>
+        <nav class="navbar navbar-inverse" role="navigation">
+          <div id="main-nav" class="collapse navbar-collapse navStyle">
+            <ul class="nav navbar-nav" id="mainNav">
+              <li><a href="index.html" class="scroll-link">Home</a></li>
+              <li><a href="support.html" class="scroll-link">Support</a></li>
+              <li><a href="product.html" class="scroll-link">Product</a></li>
+              <li><a href="about.html" class="scroll-link">About Us</a></li>
+              <li><a href="blog.html" class="scroll-link">Blog</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <main>
+
+  <h1>About Us</h1>
+  <img src="about.jpg" alt="Image in the Middle" style="display: block; margin: 0 auto;"> 
+
+  <p>Here you will find a wide range of computer and IT gadgets to meet your needs.     We are committed to providing high-quality products and excellent customer service.
+    Welcome to our comprehensive selection of computer and IT gadgets designed to cater to all your technological needs.  Whether you're a tech enthusiast, a professional in the IT field, or simply someone looking for the latest tools to enhance your daily life, we have the right solutions for you.  Our range includes cutting-edge devices such as high-performance laptops, innovative tablets, reliable networking equipment, and the latest in software applications.</p>
+    
+    <p>We understand that technology is constantly evolving, and so are the demands of our customers.  That's why we continuously update our inventory with the newest releases from leading brands, ensuring that you have access to the most advanced products on the market.  From ergonomic keyboards and high-speed USB hubs to smart home devices and security systems, our collection is diverse enough to suit a variety of preferences and requirements.</p>
+    
+    <p>At the heart of our mission is a commitment to delivering not only top-notch products but also exceptional customer service.  Our knowledgeable staff is always ready to assist you in choosing the perfect gadget that fits your specific needs.  We provide detailed information about each product, allowing you to make informed decisions.  Furthermore, we offer technical support and after-sales services to ensure that you enjoy a seamless experience with your purchases.</p>
+    
+    <p>In summary, our goal is to be your one-stop-shop for all things related to computers and IT gadgets.  We strive to exceed your expectations by offering a blend of quality, reliability, and unparalleled service.  Browse through our extensive selection today and discover how we can help you stay connected, productive, and ahead of the curve.</p>
+
+    <h2>Location Map</h2>
+    <img src="map.jpg" alt="Location Map"style="width: 600px; height: 450px;">    
+    <h2>Contact Details</h2>
+    <p><strong>Address:</strong> 73 Jeffrey Street, Canterbury New South Wales 2193</p>
+    <p><strong>Phone:</strong> 123 - 456 - 7890</p>
+    <p><strong>Email:</strong>  CC ICTCompany@email.com</p>
+  </main>
+  <footer>
+    <div>
+      <p>Connect with us:</p>
+      <ul class="social-links">
+        <li><a href="#"><img src="facebook.jpg" alt="Facebook"style="width: 32px; height: 32px;"></a></li>
+        <li><a href="#"><img src="twitter.jpg" alt="Twitter"style="width: 32px; height: 32px;"></a></li>
+        <li><a href="#"><img src="instagram.jpg" alt="Instagram"style="width: 32px; height: 32px;"></a></li>
+      </ul>
+
+      <p>Leo Copyright © 2024</p>
+    </div>
+    
+  </footer>
+</body>
+
+</html>

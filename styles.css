@@ -1,0 +1,208 @@
+    /* Leo ChengYuan */
+
+    body {
+        background: #ffffff;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 14px;
+        font-weight: normal;
+        color: #741414;
+        margin: 0;
+    }
+
+    :root {
+        --navSize: 40px; 
+        --textSize: 20px; 
+        --navWidth: 80%; 
+      }
+      
+      #header_wrapper {
+        background: #b11010;
+        padding: 2px;
+      }
+      
+      .header_box {
+        position: relative;
+      }
+      
+      .logo {
+        display: flex;
+        align-items: center;
+      }
+      
+      .logo img {
+        width: 70px; 
+        height: auto;
+        margin-right: 10px;
+      }
+      
+      .res-nav_click {
+        display: none;
+      }
+      
+      /* Nav Styles
+      ---------------------------------*/
+      .navbar-inverse {
+        background-color: transparent;
+        border-color: transparent;
+      }
+      
+      .navbar {
+        border: 0px solid #121111;
+        min-height: var(--navSize); 
+        margin-bottom: 0px;
+      }
+      
+      .navStyle {
+        float: none;
+        text-align: center;
+        width: var(--navWidth); 
+        margin: 0 auto; 
+      }
+      
+      .navStyle ul {
+        list-style: none;
+        padding: 0px;
+        display: inline-block;
+      }
+      
+      .navStyle ul li {
+        display: inline-block;
+        margin: 0 5px;
+      }
+      
+      .navStyle ul li:first-child {
+        /*margin:0px;*/
+      }
+      
+      .navStyle ul li:last-child {
+        margin: 0 0 0 23px;
+      }
+      
+      .navStyle ul li a {
+        display: block;
+        font-size: var(--textSize); 
+        color: #222222;
+        font-family: 'Raleway', sans-serif;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: 600;
+        transition: all 0.2s ease-in-out;
+        -moz-transition: all 0.2s ease-in-out;
+        -webkit-transition: all 0.2s ease-in-out;
+      }
+      
+      .navStyle ul li a:hover {
+        color: #005490;
+      }
+      
+      .navStyle > li > a:hover,
+      .nav > li > a:focus {
+        text-decoration: none;
+        color: #005490;
+        background-color: transparent;
+      }
+      
+      .navbar-inverse.navbar-nav > li > a:hover,
+      .navbar-inverse.navbar-nav > li > a:focus {
+        color: #005490;
+        background-color: transparent;
+      }
+      
+      .navbar-inverse.navbar-nav >.active > a,
+      .navbar-inverse.navbar-nav >.active > a:hover,
+      .navbar-inverse.navbar-nav >.active > a:focus {
+        color: #0f0f0f;
+        background-color: #005490;
+        border-radius: 5%;
+      }
+      
+      .navStyle > li.active > a,
+      .navStyle > li.active > a:hover {
+        text-decoration: none;
+        color: #005490;
+        background-color: transparent;
+      }
+      
+      .borderLeft {
+        border-left: 1px solid #DADADA;
+      }
+      
+      .borderTop {
+        margin-top: 30px;
+        border-top: 1px solid #DADADA;
+      }
+      
+      .mrgTop {
+        margin-top: 30px;
+      }
+      
+      /* Set navigation bar text background color change */
+      .navStyle ul li a.active {
+        background-color: #005490;
+        color: #fff;
+      }
+
+h1 {
+    margin-top: 0;
+    /* Removes the default top margin from the h1 heading. */
+}
+
+footer {
+    background-color: #9b2020;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.product-category {
+    margin-bottom: 20px;
+    /* Adds a bottom margin of 20 pixels to the product category container. */
+}
+
+.products {
+    display: flex;
+    justify-content: space-between;
+}
+
+.product {
+    width: 30%;
+    text-align: center;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+}
+
+.blog-post {
+    background-color: #f5f5f5;
+    padding: 20px;
+    margin-bottom: 20px;
+    /* Sets the background color of the blog post to light gray (#f5f5f5), adds padding of 20 pixels, and adds a bottom margin of 20 pixels. */
+}
+
+.more-posts {
+    margin-top: 20px;
+}
+
+.more-posts h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    /* Sets the font size of the "More Articles" heading to 18 pixels and adds a bottom margin of 10 pixels. */
+}
+
+.more-posts ul {
+    list-style-type: none;
+    padding: 0;
+    /* Removes the default list-style-type (bullets) and sets the padding to 0 for the list of more articles. */
+}
+
+.more-posts ul li {
+    margin-bottom: 5px;
+}
+
+.more-posts ul li a {
+    text-decoration: none;
+    color: #333;
+    /* Removes the underline from the links within the "More Articles" list and sets the text color to dark gray (#333). */
+}

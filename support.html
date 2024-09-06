@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Support</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      
+      var currentPage = window.location.pathname.split('/').pop();
+      $('nav ul li a[href="' + currentPage + '"]').addClass('active');
+    });
+  </script>
+</head>
+
+<body>
+  <header id="header_wrapper">
+    <div class="container">
+      <div class="header_box">
+        <div class="logo"><a href="#"><img src="logo.jpg" alt="logo"></a></div>
+        <nav class="navbar navbar-inverse" role="navigation">
+          <div id="main-nav" class="collapse navbar-collapse navStyle">
+            <ul class="nav navbar-nav" id="mainNav">
+              <li><a href="index.html" class="scroll-link">Home</a></li>
+              <li><a href="support.html" class="scroll-link">Support</a></li>
+              <li><a href="product.html" class="scroll-link">Product</a></li>
+              <li><a href="about.html" class="scroll-link">About Us</a></li>
+              <li><a href="blog.html" class="scroll-link">Blog</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <h1>Support</h1>
+
+  <main>
+    <div style="display: flex; justify-content: center;">
+      <div style="margin-right: 80px;">
+      <img src="support flowchart.jpg" alt="Support Flowchart">
+      <p>Purchase products</p>
+    </div>
+    <div style="margin-left: 80px;">
+      <img src="sales return.jpg" alt="Support Image 2">
+      <p>sales return</p>
+    </div>
+    </div>
+  </main>
+  <h2>Service support</h2>
+  <p>Purchase products: You can select products according to your needs, we will deliver for you as soon as possible after successful settlement</p>
+  <p>Repair service: We will provide a variety of service support through your selected products and faults. According to your own needs, you can choose the engineer on-site service, booking service and mail repair service.</p>
+  <p>Service progress query: You can contact us at any time to check your service progress.</p>
+  
+  <p><strong>Email:</strong> support@email.com</p>
+  <p><strong>Phone:</strong> 123 - 456 - 7890</p>
+
+  
+
+
+  <footer>
+    <div>
+      <p>Connect with us:</p>
+      <ul class="social-links">
+        <li><a href="#"><img src="facebook.jpg" alt="Facebook"style="width: 32px; height: 32px;"></a></li>
+        <li><a href="#"><img src="twitter.jpg" alt="Twitter"style="width: 32px; height: 32px;"></a></li>
+        <li><a href="#"><img src="instagram.jpg" alt="Instagram"style="width: 32px; height: 32px;"></a></li>
+      </ul>
+
+      <p>Leo Copyright © 2024</p>
+    </div>
+    
+  </footer>
+</body>
+
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Homepage</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      
+      var currentPage = window.location.pathname.split('/').pop();
+      $('nav ul li a[href="' + currentPage + '"]').addClass('active');
+    });
+  </script>
+</head>
+
+<body>
+  <header id="header_wrapper">
+    <div class="container">
+      <div class="header_box">
+        <div class="logo"><a href="#"><img src="logo.jpg" alt="logo"></a></div>
+        <nav class="navbar navbar-inverse" role="navigation">
+          <div id="main-nav" class="collapse navbar-collapse navStyle">
+            <ul class="nav navbar-nav" id="mainNav">
+              <li><a href="index.html" class="scroll-link">Home</a></li>
+              <li><a href="support.html" class="scroll-link">Support</a></li>
+              <li><a href="product.html" class="scroll-link">Product</a></li>
+              <li><a href="about.html" class="scroll-link">About Us</a></li>
+              <li><a href="blog.html" class="scroll-link">Blog</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <h1>Welcome to Our Ecommerce Website</h1>
+  <img src="home1.jpg" alt="Image in the Middle" style="display: block; margin: 0 auto;">
+  <p>Welcome to our comprehensive selection of computer and IT gadgets designed to cater to all your technological needs.  Whether you're a tech enthusiast, a professional in the IT field, or simply someone looking for the latest tools to enhance your daily life, we have the right solutions for you.  Our range includes cutting-edge devices such as high-performance laptops, innovative tablets, smart phone and so on.
+  </p>
+    <p><strong>Company Name:</strong>CC ICT Company </p>
+    <p><strong>Address:</strong>73 Jeffrey Street, Canterbury New South Wales 2193</p>
+    <p><strong>Unique Values:</strong> We offer a curated selection of the latest and most innovative ICT gadgets and computer products, handpicked for quality and performance</p>
+      <p>Our commitment to sustainability means we source products with eco-friendly materials and packaging, reducing our environmental footprint.</p>
+      <p> our company, we pride ourselves on providing exclusive, limited-edition items that you won't find anywhere else.</p>
+    <p><strong>Customer Support Policies:</strong>  Our customer support is available 24/7 to assist you with any questions or concerns.  Whether it's pre-sales inquiries or after-sales support, we're here for you.</p>
+      <p>We offer a hassle-free return policy within 7 days of purchase.  If you're not satisfied with your product, simply return it for a full refund or exchange.
+      </p>
+</html>
+
+<footer>
+  <div>
+    <p>Connect with us:</p>
+    <ul class="social-links">
+      <li><a href="#"><img src="facebook.jpg" alt="Facebook"style="width: 32px; height: 32px;"></a></li>
+      <li><a href="#"><img src="twitter.jpg" alt="Twitter"style="width: 32px; height: 32px;"></a></li>
+      <li><a href="#"><img src="instagram.jpg" alt="Instagram"style="width: 32px; height: 32px;"></a></li>
+    </ul>
+
+    <p>Leo Copyright © 2024</p>
+  </div>
+  
+</footer>
+</body>
+
+</html>

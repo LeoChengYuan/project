@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Blog</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      
+      var currentPage = window.location.pathname.split('/').pop();
+      $('nav ul li a[href="' + currentPage + '"]').addClass('active');
+    });
+  </script>
+</head>
+
+<body>
+  <header id="header_wrapper">
+    <div class="container">
+      <div class="header_box">
+        <div class="logo"><a href="#"><img src="logo.jpg" alt="logo"></a></div>
+        <nav class="navbar navbar-inverse" role="navigation">
+          <div id="main-nav" class="collapse navbar-collapse navStyle">
+            <ul class="nav navbar-nav" id="mainNav">
+              <li><a href="index.html" class="scroll-link">Home</a></li>
+              <li><a href="support.html" class="scroll-link">Support</a></li>
+              <li><a href="product.html" class="scroll-link">Product</a></li>
+              <li><a href="about.html" class="scroll-link">About Us</a></li>
+              <li><a href="blog.html" class="scroll-link">Blog</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <h1>Blog</h1>
+
+  <article class="blog-post">
+    <h2>Latest Tech Trends</h2>
+    <p>In today's fast-paced digital world, staying up-to-date with the latest tech trends is crucial. From artificial intelligence to the Internet of Things, we'll explore the innovations that are shaping our future.</p>
+    <p>One of the most exciting developments is the advancement of 5G technology, which promises faster speeds and more reliable connections. This will enable a whole new range of applications, from smart cities to virtual reality experiences.</p>
+    <p>Another trend to watch is the growing popularity of wearable devices. From fitness trackers to smartwatches, these gadgets are becoming more sophisticated and integrated into our daily lives.</p>
+  </article>
+
+  <article class="blog-post">
+    <h2>Top Tips for Choosing the Right Laptop</h2>
+    <p>When it comes to choosing a laptop, there are many factors to consider. Here are some top tips to help you make the right decision.</p>
+    <p>First, consider your needs. Are you looking for a laptop for work, gaming, or general use? Different models are designed for different purposes, so it's important to choose one that meets your specific requirements.</p>
+    <p>Next, think about the specifications. Look at the processor, RAM, storage, and graphics card to ensure that the laptop has the power to handle your tasks.</p>
+    <p>Also, pay attention to the display quality, battery life, and portability. A good display will enhance your viewing experience, while a long battery life and lightweight design will make it more convenient to use on the go.</p>
+  </article>
+
+  <article class="blog-post">
+    <h2>The Future of Computing</h2>
+    <p>As technology continues to evolve, we can expect to see some exciting changes in the world of computing. Quantum computing, for example, has the potential to revolutionize the way we process information.</p>
+    <p>With its ability to perform complex calculations at lightning speeds, quantum computing could lead to breakthroughs in fields such as medicine, finance, and climate research.</p>
+    <p>Additionally, we're likely to see more integration of artificial intelligence into our devices and systems, making them smarter and more intuitive.</p>
+  </article>
+
+  <div class="more-posts">
+    <h3>More Articles:</h3>
+    <ul>
+      <li><a href="#">The Impact of Technology on Education</a></li>
+      <li><a href="#">Smart Home Devices: Making Life Easier</a></li>
+      <li><a href="#">Cybersecurity Challenges in the Digital Age</a></li>
+    </ul>
+  </div>
+  <footer>
+    <div>
+      <p>Connect with us:</p>
+      <ul class="social-links">
+        <li><a href="#"><img src="facebook.jpg" alt="Facebook"style="width: 32px; height: 32px;"></a></li>
+        <li><a href="#"><img src="twitter.jpg" alt="Twitter"style="width: 32px; height: 32px;"></a></li>
+        <li><a href="#"><img src="instagram.jpg" alt="Instagram"style="width: 32px; height: 32px;"></a></li>
+      </ul>
+
+      <p>Leo Copyright © 2024</p>
+    </div>
+    
+  </footer>
+</body>
+
+</html>
