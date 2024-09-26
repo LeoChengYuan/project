@@ -207,39 +207,24 @@ footer {
     /* Removes the underline from the links within the "More Articles" list and sets the text color to dark gray (#333). */
 }
 /* Responsive design */
-@media screen and (max-width: 768px) { /* Tablet and below screen sizes */
-  .res-nav_click {
-      display: block;
+@media only screen and (max-width: 768px) {
+ .navStyle ul li {
+    display: block;
+    margin: 5px 0;
   }
-
-  .navStyle ul {
-      display: none;
+ .logo img {
+    width: 50px;
   }
-
-  .navStyle ul.active {
-      display: block;
+  h1 {
+    font-size: 24px;
   }
-
-  .navStyle ul li {
-      display: block;
-      margin: 10px 0;
+  img {
+    max-width: 100%;
   }
-
-  .products {
-      flex-direction: column;
+ .product {
+    width: 100%;
   }
-
-  .product {
-      width: 100%;
+ .more-posts h3 {
+    font-size: 16px;
   }
-
-  /* Other style adjustments for small screens */
-}
-
-@media screen and (min-width: 769px) and (max-width: 1024px) { /* Flat screen size and above */
-  /* Style adjustments for tablet screen size */
-}
-
-@media screen and (min-width: 1025px) { /* Desktop display and above screen sizes */
-  /* If  need to make special style adjustments to desktop monitor */
 }
